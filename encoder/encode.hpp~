@@ -1,9 +1,0 @@
-#include<list>
-#include<opencv2/core/core.hpp>
-#include"../namespace/namespace.hpp"
-
-void encode(list<Mat> &frame_list, Mat &max, Mat &min);
-void predictive_encode(list<Mat> &frame_list, Mat &max, Mat &min);
-//Remove below functions from header file after tests are complete
-unsigned char delta_code(unsigned char pred_val, unsigned char frame_val);
-
