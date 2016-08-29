@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( CAC )
+find_package( OpenCV REQUIRED)
+add_executable( CAC cac.cpp encoder/encode.cpp encoder/huffman.cpp encoder/bitwriter.cpp decoder/decode.cpp test/test.cpp )
+target_link_libraries( CAC ${OpenCV_LIBS})

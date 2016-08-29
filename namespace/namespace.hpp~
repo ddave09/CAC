@@ -1,0 +1,5 @@
+#ifndef __NAMESPACES
+#define __NAMESPACES
+using namespace std;
+using namespace cv;
+#endif

@@ -1,0 +1,8 @@
+#include "highgui.h"
+#include<opencv2/core/core.hpp>
+#include"../namespace/namespace.hpp"
+#include"../encoder/encode.hpp"
+void validate_dif(Mat &first, Mat &second, int rows, int cols, int channels, Mat &max, Mat &min);
+void huffman_u_test(unsigned long long elements);
+void huffman_s_test();
+void test_delta();

@@ -1,0 +1,9 @@
+#ifndef __HIGHGUI
+#define __HIGHGUI
+#include "highgui.h"
+#include"../namespace/namespace.hpp"
+#endif
+#include<opencv2/core/core.hpp>
+
+void recover_frame(Mat &max, Mat &min, Mat& frame, signed char *c, int rows, int cols, int channels);
+
