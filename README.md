@@ -30,4 +30,5 @@ contribution from people working in the field of video compressio is welcomed. C
 REFERENCES:
 
 MIN-MAX COMPRESSION METHODS FOR MEDICAL IMAGE DATABASES by Kosmas karadimitriou and John M. Tyler
+
 A COMPARISON OF SET REDUNDANCY COMPRESSION TECHNIQUES by Samy Ait-Audia and Abdelhalim Gabis
